@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".chem1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Engineering Chemistry-I"
+        android:textColor="#40dddd"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="499dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="550dp"
+            android:background="@drawable/hub"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:text="1. The concepts developed in this course will aid in
+quantification as well as understand the applications of
+several concepts in Chemistry that have been introduced at
+the 10 + 2 levels in schools.\n\n
+2. Explain the concept of microscopic chemistry in terms of
+atomic and molecular orbital theory and relate it to diatomic
+molecules.\n\n
+3. Describe the concept of aromaticity and interpret it with
+relation to specific aromatic systems.\n\n
+4. Illustrate the knowledge of various types of intermolecular
+forces and relate it to real gases.\n\n
+5. Interpret various phase transformations using
+thermodynamics.\n\n
+6. Illustrate the knowledge of polymers, fabrication methods,
+conducting polymers in various industrial fields.\n\n
+7. Analyze the quality of water and suggest suitable methods
+of treatment.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

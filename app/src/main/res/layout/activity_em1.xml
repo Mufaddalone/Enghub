@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".em1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Engineering Mathematics-I"
+        android:textColor="#40dddd"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="499dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:textColor="#000"
+        android:layout_width="375dp"
+        android:layout_height="550dp"
+        android:background="@drawable/hub"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:text="1. The course is aimed to develop the basic Mathematical skills of
+engineering students that are imperative for effective
+understanding of engineering subjects.\n\n
+2. The topics introduced will serve as basic tools for specialized
+studies in many fields of engineering and technology.\n\n
+3. To provide hands on experience using SCILAB software to
+handle real life problems.\n\n
+4. . Apply the basic concepts of Complex Numbers and will be able
+to use it for engineering problems.\n\n
+5. Apply hyperbolic functions and logarithms in subjects like
+electrical circuits, Electromagnetic wave theory.\n\n
+6. Apply the basic concepts of partial differentiation of function of
+several variables and will be able to use in subjects like
+Electromagnetic Theory, Heat and Mass Transfer etc.\n\n
+7. Apply the concept of Maxima, Minima and Successive
+differentiation and will be able to use it for optimization and
+tuning the systems.\n\n
+8. Apply the concept of Matrices and will be able to use it for
+solving the KVL and KCL in electrical networks.\n\n
+9. Apply the concept of Numerical Methods for solving the
+engineering problems with the help of SCILAB software.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
