@@ -27,6 +27,7 @@
         app:layout_constraintVertical_bias="0.049" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="373dp"
         android:layout_height="499dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,15 +36,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.732">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:textColor="#000"
-        android:layout_width="375dp"
-        android:layout_height="550dp"
-        android:background="@drawable/hub"
-        android:padding="15dp"
-        android:textSize="20dp"
-        android:text="1. The course is aimed to develop the basic Mathematical skills of
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="375dp"
+            android:layout_height="550dp"
+            android:background="@drawable/hub"
+            android:padding="15dp"
+            android:text="1. The course is aimed to develop the basic Mathematical skills of
 engineering students that are imperative for effective
 understanding of engineering subjects.\n\n
 2. The topics introduced will serve as basic tools for specialized
@@ -65,12 +64,26 @@ solving the KVL and KCL in electrical networks.\n\n
 9. Apply the concept of Numerical Methods for solving the
 engineering problems with the help of SCILAB software.
 "
+            android:textColor="#000"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
-    </ScrollView>
+        app:layout_constraintVertical_bias="0.994" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
