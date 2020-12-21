@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "500568289595",
+    "firebase_url": "https://enghub-663d1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "enghub-663d1",
+    "storage_bucket": "enghub-663d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500568289595:android:0023990a7bd94d6f79471e",
+        "android_client_info": {
+          "package_name": "com.example.android.enghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500568289595-t4bncoafm1bfkitep1hbkufjn7q158lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.enghub",
+            "certificate_hash": "02870697d898e463943a52dc21e6eea7aeba9c64"
+          }
+        },
+        {
+          "client_id": "500568289595-b8qapvs1cpbfuu5tjkvb8uvgqdi5pm2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOO3pOB5oUsmpbxcTer346Hvv9Gpt-BwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500568289595-b8qapvs1cpbfuu5tjkvb8uvgqdi5pm2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

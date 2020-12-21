@@ -75,7 +75,7 @@ engineering problems with the help of SCILAB software.
     </ScrollView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/notes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Notes"

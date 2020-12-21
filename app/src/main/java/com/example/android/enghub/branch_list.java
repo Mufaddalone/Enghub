@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.ArrayList;
 
 public class branch_list extends AppCompatActivity {
@@ -20,9 +22,19 @@ public class branch_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_branch_list);
 
+        Button logout = findViewById(R.id.button);
         TextView fe = findViewById(R.id.fe);
         TextView cse = findViewById(R.id.cse);
         TextView elex = findViewById(R.id.elex);
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();//logout
+                startActivity(new Intent(getApplicationContext(),login.class));
+                finish();
+            }
+        });
 
         fe.setOnClickListener(new View.OnClickListener() {
             @Override

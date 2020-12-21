@@ -82,5 +82,19 @@
         app:layout_constraintVertical_bias="0.119"
         tools:layout_editor_absoluteX="-8dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:background="@drawable/rounded_corner_button"
+        android:text="LOG OUT"
+        android:textColor="#777"
+        app:backgroundTint="#ddd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
