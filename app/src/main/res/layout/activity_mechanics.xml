@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".phy1">
+    tools:context=".mechanics">
 
     <TextView
         android:id="@+id/textView3"
@@ -15,7 +15,7 @@
         android:fontFamily="@font/aclonica"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Engineering Physics-I"
+        android:text="Engineering Mechanics"
         android:textColor="#40dddd"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -43,23 +43,23 @@
             android:background="@drawable/hub"
             android:padding="15dp"
             android:textSize="20dp"
-            android:text="1. To understand basic physics concepts and founding principles of
-technology.\n\n
-2. To develop scientific temperament for scientific observations,
-recording, and inference drawing essential for technology
-studies.\n\n
-3. Illustrate the fundamentals of quantum mechanics and its
-application.\n\n
-4. Explain peculiar properties of crystal structure and apply them in
-crystallography using X-ray diffraction techniques.\n\n
-5. Comprehend the concepts of semiconductor physics and
-applications of semiconductors in electronic devices.\n\n
-6. Employ the concept of interference in thin films in
-measurements.\n\n
-7. Discuss the properties of Superconductors and Supercapacitors
-to apply them in novel applications.\n\n
-8. Compare the properties of engineering materials for their current
-and futuristic frontier applications.
+            android:text="1. To familiarize the concept of equilibrium and friction.\n\n
+2. To study and analyze motion of moving particles/bodies.
+\n\n
+3. Illustrate the concept of force, moment and apply the same along
+with the concept of equilibrium in two and three dimensional
+systems with the help of FBD.\n\n
+4.Demonstrate the understanding of Centroid and its significance
+and locate the same.
+\n\n
+5. Correlate real life application to specific type of friction and
+estimate required force to overcome friction.\n\n
+6.  Establish relation between velocity and acceleration of a particle
+and analyze the motion by plotting the relation.\n\n
+7. Illustrate different types of motions and establish Kinematic
+relations for a rigid body.\n\n
+8. Analyze particles in motion using force and acceleration,
+work-energy and impulse momentum principles.
 "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".phy1">
+    tools:context=".bee">
 
     <TextView
         android:id="@+id/textView3"
@@ -15,7 +15,7 @@
         android:fontFamily="@font/aclonica"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Engineering Physics-I"
+        android:text="Basic Electrical Engineering"
         android:textColor="#40dddd"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -43,23 +43,20 @@
             android:background="@drawable/hub"
             android:padding="15dp"
             android:textSize="20dp"
-            android:text="1. To understand basic physics concepts and founding principles of
-technology.\n\n
-2. To develop scientific temperament for scientific observations,
-recording, and inference drawing essential for technology
-studies.\n\n
-3. Illustrate the fundamentals of quantum mechanics and its
-application.\n\n
-4. Explain peculiar properties of crystal structure and apply them in
-crystallography using X-ray diffraction techniques.\n\n
-5. Comprehend the concepts of semiconductor physics and
-applications of semiconductors in electronic devices.\n\n
-6. Employ the concept of interference in thin films in
-measurements.\n\n
-7. Discuss the properties of Superconductors and Supercapacitors
-to apply them in novel applications.\n\n
-8. Compare the properties of engineering materials for their current
-and futuristic frontier applications.
+            android:text="1.  1. To provide knowledge on fundamentals of D.C. circuits and
+single phase and three phase AC circuits and its applications.\n\n
+2. To inculcate knowledge on the basic operation and performance
+of 1-Φ transformer.
+\n\n
+3. To provide knowledge on fundamentals of DC and AC machines..\n\n
+4. Apply various network theorems to determine the circuit
+response / behavior.\n\n
+5. Evaluate and analyze 1-Φ circuits.\n\n
+6. Evaluate and analyze 3-Φ AC circuits.\n\n
+7. Understand the constructional features and operation of 1-Φ
+transformers.\n\n
+8. Illustrate the working principle of 3-Φ machine.Illustrate the
+working principle of 1-Φ machines.
 "
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -3,35 +3,26 @@ package com.example.android.enghub;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
-import android.Manifest;
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.core.Constants;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-public class em1notes extends AppCompatActivity {
+public class mech1notes extends AppCompatActivity {
 
     EditText editPDFName;
     Button btn_upload;
@@ -42,13 +33,13 @@ public class em1notes extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_em1notes);
+        setContentView(R.layout.activity_mech1notes);
 
         editPDFName= (EditText) findViewById(R.id.notification);
         btn_upload= (Button)findViewById(R.id.upload);
 
         storageReference= FirebaseStorage.getInstance().getReference();
-        databaseReference= FirebaseDatabase.getInstance().getReference("em1");
+        databaseReference= FirebaseDatabase.getInstance().getReference("mech");
 
         btn_upload.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,7 +76,7 @@ public class em1notes extends AppCompatActivity {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         Toast.makeText (getApplicationContext (),  "File uploaded",  Toast.LENGTH_LONG)  .show ();
-                        Task <Uri> uri=  taskSnapshot.getStorage().getDownloadUrl();
+                        Task<Uri> uri=  taskSnapshot.getStorage().getDownloadUrl();
                         while (!uri.isComplete());
                         Uri url = uri.getResult();
 
@@ -111,6 +102,6 @@ public class em1notes extends AppCompatActivity {
     }
 
     public void btn_action(View view) {
-        startActivity(new Intent(getApplicationContext(),View_pdf_Files.class));
+        startActivity(new Intent(getApplicationContext(),viewmech1.class));
     }
 }

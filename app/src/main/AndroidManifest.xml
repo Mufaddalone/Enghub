@@ -12,6 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".viewbee1"></activity>
+        <activity android:name=".bee1notes" />
+        <activity android:name=".bee" />
+        <activity android:name=".viewmech1" />
+        <activity android:name=".mech1notes" />
+        <activity android:name=".mechanics" />
+        <activity android:name=".viewchem1" />
+        <activity android:name=".chem1notes" />
+        <activity android:name=".view_phy1" />
+        <activity android:name=".phy1notes" />
         <activity android:name=".View_pdf_Files">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

@@ -17,6 +17,8 @@ public class sem1 extends AppCompatActivity {
         TextView em1 = findViewById(R.id.textView5);
         TextView phy1 = findViewById(R.id.textView6);
         TextView chem1 = findViewById(R.id.textView7);
+        TextView mech1 = findViewById(R.id.textView8);
+        TextView bee = findViewById(R.id.textView9);
 
         em1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +40,22 @@ public class sem1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),chem1.class));
+                finish();
+            }
+        });
+
+        mech1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),mechanics.class));
+                finish();
+            }
+        });
+
+        bee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),bee.class));
                 finish();
             }
         });
